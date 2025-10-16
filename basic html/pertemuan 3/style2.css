@@ -1,0 +1,151 @@
+* {
+    font-family: poppins;
+}
+
+img {
+    width: 70.5px;
+    height: none;
+    margin-left: 50px;
+}
+
+.navbar {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.menu ul li a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.HK {
+    color: white;
+    background-color: #fd7c47;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.BR {
+    color: #fd7c47;
+}
+
+.DO {
+    color: #F1A204;
+}
+
+.SV {
+    color: #0c084c
+}
+
+.judul-web {
+    color: #0c084c;
+    font-size: 40px;
+}
+
+.lps-list {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.ps {
+    background: color #020101;
+    ;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    fill: #0c084c;
+    color: #0c084c;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #0c084c;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px;
+    margin: 0px 5px 0px 5px;
+}
+
+.wa {
+    color: white;
+    background-color: #F1A204;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px;
+    margin: 0px 5px 0px 5px;
+
+}
+
+.ps a {
+    text-decoration: none;
+    color: #0c084c;
+}
+
+.wa a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.photo-orang {
+    width: 500px;
+    margin: 100px;
+}
+
+img.foto-orang {
+    width: 100%;
+    height: auto;
+}
+
+.kerja-alummni {
+    color: #0c084c;
+    font-weight: 600;
+    font-size: medium;
+    margin: 50px 0px 0px 0px;
+}
+
+a:hover {
+    color: #F1A204
+}
+
+.perusahaan-alumni {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+i {
+    color: #F1A204;
+}
+
+.daftar-btn i {
+    color: white;
+}
+
+.perusahaan-alumni.img {
+    width: 100%;
+}

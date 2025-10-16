@@ -1,0 +1,77 @@
+body {
+    font-family: poppins;
+    background-color: red;
+
+    /* margim-top: 50;
+margin-left: 50px;
+margin-right: 10px; */
+
+}
+
+
+p {
+    background-color: blue;
+    color: bisque;
+    font-size: 18px;
+    font-weight: bold;
+
+    line-height: 2;
+
+    /*spasi antar baris */
+    line-height: 1;
+
+}
+
+p {
+
+    background-color: red;
+}
+
+
+
+.ciko {
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 10px;
+}
+
+.ciko .husen {
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ciko .argan {
+    background-color: blue;
+    margin: 2opx;
+}
+
+
+p{
+.jurusan {
+background-color: black;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.jurusan.TKJ {
+background-color: pink;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+}
+
+.jurusan.dkv {
+background-color: black;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+}
+
+.jurusan.rpl {
+background-color: pink;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+}
+}

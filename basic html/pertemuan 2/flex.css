@@ -1,0 +1,95 @@
+h1 {
+    color: black;
+    font-family: poppins;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: poppins;
+    text-align: center;
+}
+
+
+.jurusan {
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    font-family: poppins;
+}
+
+.jurusan .TKJ {
+    background-color: #F2F5F7;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.jurusan .dkv {
+    background-color: #F2F5F7;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.jurusan .rpl {
+    background-color: #F2F5F7;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.tombolTkj {
+    background-color: #f1a204;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F2F5F7;
+}
+
+.tomboldkv {
+    background-color: #f1a204;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F2F5F7;
+
+}
+
+.tombolrpl {
+    background-color: #f1a204;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F2F5F7;
+}
+
+.tombolbiruTkj {
+    background-color: #0c084c;
+    color: #F2F5F7;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}   
+
+.tombolbirudkv {
+    background-color: #0c084c;
+    color: #F2F5F7;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tombolbirurpl {
+    background-color: #0c084c;
+    color: #F2F5F7;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
