@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gallery portofolio</title>
@@ -12,7 +14,7 @@
     <div class="container_gallery">
         <h1 class="title">Portofolio</h1>
 
-        <div class="filter-buttons">
+        <div class="filter-buttons" data-aos="fade-up" data-aos-duration="3000">
             <button class="filter-btn active" data-filter="All"> All </button>
             <button class="filter-btn" data-filter="Desain Grafis"> Desain Grafis </button>
             <button class="filter-btn" data-filter="Desain 3D"> Desain 3D </button>
@@ -22,28 +24,34 @@
     </div>
 
     <div class="gallery">
-        <div class="gambar Desain Grafis">
+        <div class="gambar Desain Grafis" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/Porto-DKV-Artboard-1-copy-4.png" alt="">
         </div>
-        <div class="gambar Fotografi">
+        <div class="gambar Fotografi" data-aos="fade-up" data-aos-duration="3000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/Porto-DKV-Artboard-1.png" alt="">
         </div>
-        <div class="gambar Desain 3D">
+        <div class="gambar Desain 3D" data-aos="fade-up" data-aos-duration="3000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/Porto-DKV-Artboard-1-copy-3.png" alt="">
         </div>
-        <div class="gambar Fotografi">
+        <div class="gambar Fotografi" data-aos="fade-up" data-aos-duration="3000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/Porto-DKV-Artboard-1-copy.png" alt="">
         </div>
-        <div class="gambar Fotografi">
+        <div class="gambar Fotografi" data-aos="fade-up" data-aos-duration="3000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/Porto-DKV-Artboard-1-copy-5.png" alt="">
 
         </div>
-        <div class="gambar fortografi">
+        <div class="gambar fortografi" data-aos="fade-up" data-aos-duration="3000">
             <img src="https://smkpesat.sch.id/wp-content/uploads/2025/07/FotoArtboard-1-copy-12.png" alt="">
         </div>
     </div>
 
     <script src="script.js"> </script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

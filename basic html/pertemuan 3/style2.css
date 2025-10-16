@@ -1,151 +1,373 @@
 * {
-    font-family: poppins;
+  font-family: poppins;
 }
 
-img {
-    width: 70.5px;
-    height: none;
-    margin-left: 50px;
+.logo img {
+  width: 70.5px;
+  height: none;
+  margin-left: 50px;
+}
+
+.perusahaan-alumni img {
+  width: 10%;
 }
 
 .navbar {
-    padding: 20px 0 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .menu ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
-
 .menu ul li a {
-    margin: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: small;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: small;
 }
 
 .HK {
-    color: white;
-    background-color: #fd7c47;
-    padding: 12px;
-    border-radius: 5px;
-
+  color: white;
+  background-color: #fd7c47;
+  padding: 12px;
+  border-radius: 5px;
 }
 
 .BR {
-    color: #fd7c47;
+  color: #fd7c47;
 }
 
 .DO {
-    color: #F1A204;
+  color: #f1a204;
 }
 
 .SV {
-    color: #0c084c
+  color: #0c084c;
 }
 
 .judul-web {
-    color: #0c084c;
-    font-size: 40px;
+  color: #0c084c;
+  font-size: 40px;
 }
 
 .lps-list {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
-
 .ps {
-    background: color #020101;
-    ;
-    font-family: "poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 16px;
-    fill: #0c084c;
-    color: #0c084c;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #0c084c;
-    border-radius: 5px 5px 5px 5px;
-    padding: 12px;
-    margin: 0px 5px 0px 5px;
+  background: color #020101;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  fill: #0c084c;
+  color: #0c084c;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0c084c;
+  border-radius: 5px 5px 5px 5px;
+  padding: 12px;
+  margin: 0px 5px 0px 5px;
 }
 
 .wa {
-    color: white;
-    background-color: #F1A204;
-    font-family: "poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 16px;
-    border-radius: 5px 5px 5px 5px;
-    padding: 12px;
-    margin: 0px 5px 0px 5px;
-
+  color: white;
+  background-color: #f1a204;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 12px;
+  margin: 0px 5px 0px 5px;
 }
 
 .ps a {
-    text-decoration: none;
-    color: #0c084c;
+  text-decoration: none;
+  color: #0c084c;
 }
 
 .wa a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .hero {
-    display: flex;
-    margin: auto;
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 .photo-orang {
-    width: 500px;
-    margin: 100px;
+  width: 500px;
+  margin: 100px;
 }
 
 img.foto-orang {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .kerja-alummni {
-    color: #0c084c;
-    font-weight: 600;
-    font-size: medium;
-    margin: 50px 0px 0px 0px;
+  color: #0c084c;
+  font-weight: 600;
+  font-size: medium;
+  margin: 50px 0px 0px 0px;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.program1 {
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgba(236, 236, 236, 0.468);
+  margin: 0px 20px 0px 0px;
+}
+
+.program1 ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.program1 h2 {
+  font-size: 18px;
+  color: #111516;
+}
+
+.program1 img {
+  width: 100%;
+  height: auto;
+}
+
+.program2 {
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgba(236, 236, 236, 0.468);
+  margin: 0px 20px 0px 0px;
+}
+
+.program2 h2 {
+  font-size: 18px;
+  color: #111516;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.prpgram2 ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.program2 img {
+  width: 100%;
+  height: auto;
+}
+.program3 {
+  justify-content: center;
+  width: 25%;
+  border-radius: 4%;
+  background-color: rgba(236, 236, 236, 0.468);
+  margin: 0px 20px 0px 0px;
+}
+
+.program3 h2 {
+  font-size: 18px;
+  color: #111516;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.prpgram3 ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.program3 img {
+  width: 100%;
+  height: auto;
 }
 
 a:hover {
-    color: #F1A204
+  color: #f1a204;
 }
 
 .perusahaan-alumni {
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 i {
-    color: #F1A204;
+  color: #f1a204;
 }
 
 .daftar-btn i {
-    color: white;
+  color: white;
 }
 
 .perusahaan-alumni.img {
-    width: 100%;
+  width: 100%;
+}
+
+.mengapa {
+  color: #0c084c;
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+
+.kami {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #020101;
+  font-weight: 10px;
+  justify-content: center;
+}
+.jurusan {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.jurusan.TKJ {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.jurusan.dkv {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.jurusan.rpl {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.karya {
+  color: #0c084c;
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h1 {
+  color: black;
+  font-family: poppins;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: poppins;
+  text-align: center;
+}
+
+.jurusan {
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  font-family: poppins;
+}
+
+.TKJ {
+  background-color: #f2f5f7;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.dkv {
+  background-color: #f2f5f7;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.rpl {
+  background-color: #f2f5f7;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.tombolTkj {
+  background-color: #f1a204;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #f2f5f7;
+}
+
+.tomboldkv {
+  background-color: #f1a204;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #f2f5f7;
+}
+
+.tombolrpl {
+  background-color: #f1a204;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #f2f5f7;
+}
+
+.tombolbiruTkj {
+  background-color: #0c084c;
+  color: #f2f5f7;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tombolbirudkv {
+  background-color: #0c084c;
+  color: #f2f5f7;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tombolbirurpl {
+  background-color: #0c084c;
+  color: #f2f5f7;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
